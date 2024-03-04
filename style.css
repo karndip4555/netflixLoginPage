@@ -1,0 +1,70 @@
+body {
+    background-image: url(./netflixbackgroundimage.jpg);
+    background-repeat:no-repeat;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    /* object-fit: cover; */
+    position: absolute;
+    /* filter: brightness(50%); */
+    display: flex;
+    justify-content: center;
+    
+
+}
+.formdiv {
+    
+    /* box-sizing: border-box; */
+    width: 30rem;
+    height: 25rem;
+    display: flex;
+    /* align-items: center; */
+    
+    
+    
+    
+    
+    
+   
+}
+.logintext p {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+
+}
+.backgroundform {
+    background-color: rgba(0, 0, 0, .75);
+    padding: 30px;
+    border: transparent;
+    border-radius: 15px;
+    
+
+
+}
+.input {
+   
+    padding: 25px;
+    width: 20rem;
+    margin-top: 20px;
+    margin: 10px;
+    background: #262525c9;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    
+}
+.backgroundform .formdiv .button button {
+    background-color: rgb(209, 50, 50);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border: transparent;
+    border-radius: 5px;
+    /* align-items: center; */
+    display: flex;
+   /* border: 2px solid red; */
+   padding: 15px;
+       
+}
+.backgroundform .formdiv .button {
+    border: 2px solid blue;
+     display: flex;
+     justify-content: center;
+}
